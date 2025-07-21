@@ -4,19 +4,16 @@ namespace Project.Constants
     {
         public const string ValidUsername = "Eliza";
         public const string ValidPassword = "Eliza123456";
-        
         public static class ErrorMessages
         {
             public const string EmptyFields = "Please fill in all fields!";
             public const string InvalidCredentials = "Invalid username or password!";
         }
-        
         public static class WindowTitles
         {
             public const string Login = "Sign In";
             public const string Dashboard = "Dashboard";
         }
-        
         public static class Labels
         {
             public const string Username = "Username";

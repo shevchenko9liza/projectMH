@@ -50,7 +50,6 @@ namespace Project.ViewModels
         }
         private void ExecuteLogin(object? parameter)
         {
-            // Очищаем предыдущие сообщения
             LoginMessage = string.Empty;
             
             if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Password))

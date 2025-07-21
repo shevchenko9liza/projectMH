@@ -408,4 +408,9 @@ $RECYCLE.BIN/
 appsettings.local.json
 *.log
 .env
-.env.local 
+.env.local
+
+# Application specific
+Logs/
+*.bak
+*.backup 
